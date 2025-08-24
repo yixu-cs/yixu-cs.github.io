@@ -1,0 +1,12 @@
+---
+title: "Theory Student Day 2025"
+collection: talks
+type: "Talk"
+permalink: /talks/2025-03-15-theory-student-day
+venue: "University of Science and Technology of China, Theory Group"
+date: 2025-03-15
+location: "Hefei, Anhui, China"
+slidesurl: 'https://yixu-cs.github.io/files/WIT-SLC.pdf'
+---
+
+This is a description of your talk, which is a markdown file that can be all markdown-ified like any other post. Yay markdown!
