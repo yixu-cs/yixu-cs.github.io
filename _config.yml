@@ -27,7 +27,7 @@ author:
   pronouns         : "she/her"
   bio              : "Focusing on approximation algorithms, graph algorithms"
   location         : "Hefei, Anhui, China"
-  employer         : "University of Science and Technology of China"
+  employer         : "USTC"
   uri              : # URL
   email            : "yi_xu@mail.ustc.edu.cn" 
 
@@ -81,10 +81,10 @@ author:
 publication_category:
   books:
     title: 'Books'
+  submitted:
+    title: 'Submitted Conference Papers'    
   manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+    title: 'Preprints'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
