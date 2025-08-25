@@ -4,9 +4,10 @@ collection: talks
 type: "Talk"
 permalink: /talks/2025-03-15-theory-student-day
 venue: "University of Science and Technology of China, Theory Group"
+duration: "30 minutes"
 date: 2025-03-15
 location: "Hefei, Anhui, China"
 slidesurl: "https://yixu-cs.github.io/files/Theory%20Student%20Day-SLC.pdf"
 ---
 
-This is a description of your talk, which is a markdown file that can be all markdown-ified like any other post. Yay markdown!
+Presented an in-depth overview of our work on sublinear algorithms for estimating SLC costs.
