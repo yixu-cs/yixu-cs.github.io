@@ -2,13 +2,13 @@
 title: "Pixel-Style Graphic PC Game"
 start: 2019-10-01
 end: 2020-06-12
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+excerpt: "Utilized C++ to implement features for character navigation, combat, item selection, map loading and NPC iteraction. <br/><img src='/images/projects/game-overview.png' width='400' />"
 collection: projects
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+When I was an undergraduate, and I had just learned the C++ programming language (the first programming language I learned), together with two other classmates who also enjoyed programming, we used C++ to design a small single-player RPG game. We applied a [graphics library](https://xege.org/) to make the game look better.
 
 
-Solarized dark             |  Solarized Ocean
+<!-- Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
-![](/images/500x300.png)  |  ![](/images/500x300.png)
+![](/images/500x300.png)  |  ![](/images/500x300.png) -->

@@ -2,7 +2,7 @@
 title: "RoboGame2020 Competition"
 start: 2020-06-01
 end: 2020-10-01
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+excerpt: "Short description of portfolio item number 1<br/><img src='/images/projects/robo-hardware.png' width='400' />"
 collection: projects
 ---
 
