@@ -1,8 +1,9 @@
 ---
 title: "RoboGame2020 Competition"
+role: "Participant."
 start: 2020-06-01
 end: 2020-10-01
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/projects/robo-hardware.png' width='400' />"
+excerpt: "Collaborated in designing and programming a robot with STM32 embedded systems for moving simulated patients to designated beds; programmed and controlled the robotic arm for task execution. Achieved <b>Fourth Prize</b> in the second round of the competition.<br/><img src='/images/projects/robo-hardware.png' width='400' />"
 collection: projects
 ---
 
