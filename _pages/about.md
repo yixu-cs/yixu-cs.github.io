@@ -6,9 +6,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am currenctly a second-year Master's student from University of Science and Technology of China, advised by Prof. Pan Peng. And I received my bachelor's degree from the School of Computer Science and Technology, University of Science and Technology of China.
+I am currently a second-year Master’s student at the University of Science and Technology of China, advised by Prof. Pan Peng. I received my bachelor’s degree from the School of Computer Science and Technology at the same university.
 
-My research interest includes: Parameter approximation on graphs, spectral graph theory, sublinear algorithms, streaming algorithms and learning theory.
+My research interests include parameter approximation on graphs, spectral graph theory, sublinear algorithms, streaming algorithms, and learning theory.
 
 [Download CV](https://yixu-cs.github.io/files/CV-USTC-Yi%20Xu.pdf)
 

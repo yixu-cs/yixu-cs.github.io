@@ -3,7 +3,7 @@ title: "Sublinear Algorithms for Estimating Single-Linkage Clustering Costs"
 collection: publications
 category: submitted
 permalink: /publication/2025-SODA-SLC-costs
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+excerpt: 'We proposed new cost functions about SLC, which reflects properties of datasets, and estimated our costs in sublinear time. We studied this problem in both distance and similarity measurements, and conducted extensive experiments to validate our results. We also proved the lower bounds, and our algorithms nearly match them.'
 date: 2025-07-14
 venue: 'SODA 2026'
 slidesurl: 
@@ -29,3 +29,5 @@ This establishes an interesting -- and perhaps surprising -- separation between 
 
 My contribution
 ------
+
+I refined the algorithm’s details and was primarily responsible for formulating proofs of key theorems and validating results through comprehensive experiments.

@@ -3,7 +3,7 @@ title: "Joint Optimization of Handoff and Video Rate in LEO Satellite Networks"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-arxiv-LEO-RL
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
+excerpt: 'We propose and evaluate new algorithms for video-aware mobility management in satellite networks, jointly optimizing satellite handoff and video bitrate to improve streaming experience for both single and multiple users.'
 date: 2025-04-06
 venue: 'Arxiv'
 slidesurl: 
@@ -19,3 +19,4 @@ Low Earth Orbit (LEO) satellite communication presents a promising solution for 
 
 My contribution
 ------
+I participated in the work of this paper during my internship at Microsoft Research Asia (Shanghai). My colleague wrote most of the code, while I was mainly responsible for helping him debug issues, modifying the code to introduce additional parameters for reinforcement learning, and conducting experiments.

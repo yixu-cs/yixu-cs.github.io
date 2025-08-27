@@ -3,7 +3,7 @@ title: "Replica Server Placement in a Satellite Network"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-arxiv-LEO-CDN
-excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
+excerpt: 'Satellites can be applied as content replica servers to improve client experience in the remote locations. We optimized the placement of servers in satellite networks to reduce transmission and storage costs while considering satellite movement.'
 date: 2025-08-01
 venue: 'Arxiv'
 paperurl:  'https://yixu-cs.github.io/files/preprint-SatCDN.pdf'
@@ -18,3 +18,6 @@ Satellite communication offers Internet connectivity to remote locations, such a
 
 My contribution
 ------
+I participated in the work of this paper during my internship at Microsoft Research Asia (Shanghai).
+This problem can formalized by Facility Location problems. I implemented two algorithms in facility location problems: greedy algorithm, and local search algorithm.
+I also tried to use routers as satellites to simulate our algorithms in real life.
