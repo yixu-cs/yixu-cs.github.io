@@ -82,7 +82,7 @@ publication_category:
   books:
     title: 'Books'
   submitted:
-    title: 'Submitted Conference Papers'    
+    title: 'Conference Papers'    
   manuscripts:
     title: 'Preprints'
 
