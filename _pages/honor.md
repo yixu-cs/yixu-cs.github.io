@@ -1,0 +1,4 @@
+- **First-Class Academic Scholarship**, University of Science and Technology of China (2023, 2024)
+- **Silver Prize**, ASC22-23 International Supercomputing Competition (2023)
+- **Star of Tomorrow**, Microsoft Research Asia (2022)
+- **Silver Award**, Outstanding Student Scholarship, University of Science and Technology of China (2019, 2020)

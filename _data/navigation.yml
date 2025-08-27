@@ -29,6 +29,10 @@ main:
     url: "/#teaching"
   - title: "Projects"
     url: "/#projects"
+  - title: "Experience"
+    url: "/#academic-experience"
+  - title: "Honor"
+    url: "/#awards-and-scholarships"
   - title: "Misc"
     url: "/#misc"
 

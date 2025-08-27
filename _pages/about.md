@@ -24,5 +24,11 @@ My research interests include parameter approximation on graphs, spectral graph 
 # Projects
 {% include_relative projects.html %}
 
+# Academic Experience
+{% include_relative experience.md %}
+
+# Awards and Scholarships
+{% include_relative honor.md %}
+
 # Misc
 {% include_relative misc.md %}
