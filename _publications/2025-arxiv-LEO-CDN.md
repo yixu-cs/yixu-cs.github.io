@@ -6,7 +6,7 @@ permalink: /publication/2025-arxiv-LEO-CDN
 excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
 date: 2025-08-01
 venue: 'Arxiv'
-paperurl: 
+paperurl:  'https://yixu-cs.github.io/files/preprint-SatCDN.pdf'
 authors: Zhiyuan He, <b>Yi Xu</b>, Cheng Luo, Lili Qiu, Yuqing Yang
 ---
 
