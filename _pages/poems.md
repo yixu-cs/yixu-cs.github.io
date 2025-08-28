@@ -8,7 +8,38 @@ author_profile: true
 English poems
 ======
 
+One day being a butterfly
+------
+Sept. 8th, 2024
 
+One day I woke up in a Spring
+
+With wind I travelled like a king
+
+We danced and danced with newborn wings
+
+And countless songs we planned to sing
+
+Even the river was playing its strings
+
+Living on earth is the greates thing
+
+
+We dressed in colour and walked by the river
+
+Gracefully, we embraced the fresh air
+
+Thousands of birds fluttered
+
+Toward the tomorrow they will enter
+
+The Spring is bright, pure and tender
+
+For me, one day of life is fair and rare
+
+If only you would promise me for sure
+
+That Spring returns each year and forever
 
 
 古诗词
