@@ -1,3 +1,9 @@
+---
+permalink: /misc/
+title: "Misc"
+author_profile: true
+---
+
 Nature has a special attraction for me—I enjoy birdwatching, hiking, and I have a deep love for our planet. 
 
 I am also passionate about literature. I love Dostoevsky, Maugham, Tagore, Gibran, Hai Sang, and Xi Murong. I write poems by myself.

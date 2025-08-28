@@ -23,18 +23,24 @@
 main:
   - title: "Publications"
     url: "/#publications"
+
   - title: "Talks"
     url: "/#talks"
+  
   - title: "Teaching"
     url: "/#teaching"
-  - title: "Projects"
-    url: "/#projects"
+  
   - title: "Experience"
     url: "/#academic-experience"
+  
   - title: "Honor"
     url: "/#awards-and-scholarships"
+  
+  - title: "Projects"
+    url: "/projects/"
+  
   - title: "Misc"
-    url: "/#misc"
+    url: "/misc/"
 
   # - title: "CV"
   #   url: /cv/
