@@ -5,18 +5,10 @@ type: "Teaching assistance, Bachelor's course"
 permalink: /teaching/2025-spring-TA
 venue: "University of Science and Technology"
 date: 2025-03-01
+excerpt: "This course is a theory-oriented course, and introduces modern algorithmic techniques for big data."
 location: "Hefei, China"
 ---
-
-This course is a theory-oriented course, and introduces modern algorithmic techniques for big data.
-
-Description
-------
 This course introduces theoretical topics including random sampling, dimensionality reduction, data compression, distributed computing, streaming algorithms, clustering, classification, and stochastic optimization. It also covers the underlying theory and mathematical tools such as probabilistic methods, VC dimension, communication complexity, and learning theory in machine learning (statistical learning theory).
-
-My Role
-------
-Design and grade assignments, lead exercise classes to explain solutions, hold office hours for student support and mentoring, and assist with exam grading.
 
 Syllabus
 ------
