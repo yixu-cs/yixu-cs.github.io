@@ -15,9 +15,3 @@ Authors: Zhiyuan He, <b>Yi Xu</b>, Cheng Luo, Lili Qiu, Yuqing Yang
 Abstract
 ------
 Satellite communication offers Internet connectivity to remote locations, such as villages, deserts, mountains, and at sea. However, transmitting content over satellite networks is significantly more expensive than traditional Internet. To address this issue, we propose placing content replica servers within satellite networks and optimizing replica placement for important performance metrics, such as latency, transmission, and storage cost. Our approach can support different types of satellite networks, including Low Earth Orbit (LEO), Medium Earth Orbit (MEO), Geostationary Orbit (GEO), and their combinations. An important challenge for supporting content replicas in such networks is that LEO and MEO satellites are constantly moving. We address this challenge by explicitly considering their moving trajectories and strategically optimizing not only client performance, but also the cost of transferring content from one satellite to another as needed. We demonstrate the effectiveness of our approach using both simulated traffic traces and a prototype system.
-
-My contribution
-------
-I participated in the work of this paper during my internship at Microsoft Research Asia (Shanghai).
-This problem can formalized by Facility Location problems. I implemented two algorithms in facility location problems: greedy algorithm, and local search algorithm.
-I also tried to use routers as satellites to simulate our algorithms in real life.
