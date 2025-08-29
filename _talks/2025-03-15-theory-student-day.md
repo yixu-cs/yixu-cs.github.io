@@ -7,6 +7,6 @@ venue: "USTC, Theory Group"
 duration: "30 minutes"
 date: 2025-03-15
 location: "Hefei, Anhui, China"
-slidesurl: "https://yixu-cs.github.io/files/Theory%20Student%20Day-SLC.pdf"
+slidesurl: "/files/Theory%20Student%20Day-SLC.pdf"
 excerpt: "Presented an in-depth overview of our work on sublinear algorithms for estimating SLC costs."
 ---

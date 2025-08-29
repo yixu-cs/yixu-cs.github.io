@@ -6,7 +6,7 @@ permalink: /publication/2025-SODA-SLC-costs
 excerpt: 'We proposed new cost functions about SLC, which reflects properties of datasets, and estimated our costs in sublinear time. We studied this problem in both distance and similarity measurements, and conducted extensive experiments to validate our results. We also proved the lower bounds, and our algorithms nearly match them.'
 date: 2025-07-14
 venue: 'SODA 2026'
-slidesurl: 'https://yixu-cs.github.io/files/WIT-SLC.pdf'
+slidesurl: '/files/WIT-SLC.pdf'
 paperurl: 
 bibtexurl: 
 authors: Pan Peng, Christian Sohler, <b>Yi Xu</b> (alphabetical order)
