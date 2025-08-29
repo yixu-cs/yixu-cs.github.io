@@ -3,7 +3,7 @@ title: "Algorithms for Big Data"
 collection: teaching
 type: "Teaching assistance, Bachelor's course"
 permalink: /teaching/2025-spring-TA
-venue: "University of Science and Technology"
+venue: "USTC"
 date: 2025-03-01
 excerpt: "This course is a theory-oriented course, and introduces modern algorithmic techniques for big data."
 location: "Hefei, China"

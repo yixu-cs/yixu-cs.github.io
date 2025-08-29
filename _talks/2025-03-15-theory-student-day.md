@@ -2,8 +2,8 @@
 title: "Theory Student Day 2025"
 collection: talks
 type: "Talk"
-permalink: /talks/2025-03-15-theory-student-day
-venue: "University of Science and Technology of China, Theory Group"
+permalink:
+venue: "USTC, Theory Group"
 duration: "30 minutes"
 date: 2025-03-15
 location: "Hefei, Anhui, China"

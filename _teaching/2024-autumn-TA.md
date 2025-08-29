@@ -3,7 +3,7 @@ title: "Design and Analysis of Algorithms"
 collection: teaching
 type: "Teaching assistance, Master's course"
 permalink: /teaching/2024-autumn-TA
-venue: "University of Science and Technology"
+venue: "USTC"
 date: 2024-09-01
 excerpt: "This course mainly introduces the basics of Randomized Algorithms, Approximation Algorithms, and Distributed Algorithms, and the methods to analyze the efficiency and correctness of algorithms."
 location: "Hefei, China"
