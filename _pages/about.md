@@ -23,8 +23,8 @@ On a more personal note, I enjoy [birdwatching](/misc/birdwatching/) and writing
 # Teaching
 {% include_relative teaching.html %}
 
-<!-- # Projects
-{% include_relative projects.html %} -->
+# Projects
+{% include_relative projects.html %}
 
 # Academic Experience
 {% include_relative experience.md %}

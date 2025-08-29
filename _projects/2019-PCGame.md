@@ -3,7 +3,8 @@ title: "Pixel-Style Graphic PC Game"
 role: "Participant."
 start: 2019-10-01
 end: 2020-06-12
-excerpt: "Utilized C++ to implement features for character navigation, combat, item selection, map loading and NPC iteraction. <br/><img src='/images/projects/game-overview.png' width='400' />"
+excerpt: "Utilized C++ to implement features for character navigation, combat, item selection, map loading and NPC iteraction."
+figure: "/images/projects/game-overview.png"
 collection: projects
 ---
 

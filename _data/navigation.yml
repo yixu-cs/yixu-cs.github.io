@@ -29,15 +29,15 @@ main:
   
   - title: "Teaching"
     url: "/#teaching"
+
+  - title: "Projects"
+    url: "/#projects"
   
   - title: "Experience"
     url: "/#academic-experience"
   
   - title: "Honor"
     url: "/#awards-and-scholarships"
-  
-  - title: "Projects"
-    url: "/projects/"
   
   - title: "Misc"
     url: "/misc/"
