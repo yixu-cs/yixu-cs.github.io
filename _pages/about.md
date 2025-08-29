@@ -12,6 +12,8 @@ My research interests include parameter approximation on graphs, spectral graph 
 
 [Download CV](https://yixu-cs.github.io/files/CV-USTC-Yi%20Xu.pdf)
 
+On a more personal note, I enjoy [birdwatching](/misc/birdwatching/) and writing [poems](/misc/poems/).
+
 # Publications
 {% include_relative publications.html %}
 
