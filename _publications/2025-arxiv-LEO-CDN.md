@@ -50,22 +50,35 @@ Among all the LEO satellites, we choose and *open* several of them as facilities
 
 The <u>original greedy algorithm</u> runs as follows:
 
-1. Initialize opened facility set and unassigned client set to be empty
-2. While there exists clients who are not unassigned:
+1. Initialize opened facility set and assigned client set to be empty
+2. While there exists clients who are unassigned:
   - Pick a facility $$i$$ and an unassigned client set $$Y$$ such that $$\frac{\text{open cost for }i+\text{net connection cost}}{\text{size of }Y}$$ is minimized
   - **Net connection cost** is defined as the total connection cost incurred when assigning the client set $$Y$$ to facility $$i$$, *minus the potential cost savings* from reassigning any clients who have already been assigned to another facility to facility $$i$$ instead.
 
 While this algorithm is easy to understand, it cost exponential in time to pick the client set $$Y$$. On the other hand, we can utilize the primal-dual property, and design another <u>algorithm for the dual problem</u>:
 
-1. Increase clients' budget ("money") over time.
-2. Connect to an existing replica if possible; otherwise, open a new replica when the budget allows.
-3. Continue until all clients are covered.
+1. Initialize opened facility set and assigned client set to be empty; and set "money" for each client to be zero.
+2. While there exists clients who are unassigned:
+  - Increase clients' "money" over time.
+  - When an unassigned client's "money" is enough for it to be connected to an opened facility, conect them.
+  - When some clients' money are "enough" to open a facility, open it.
 
-This approach balances between opening minimal replicas and ensuring all clients in the satellite footprint are served, even as coverage areas evolve due to satellite motion.
+This dual approach is easier to be implemented.
 
 ### Local search facility location algorithms
 
 [Reference](https://www.cs.dartmouth.edu/~deepc/LecNotes/Appx/2b.%20Local%20Search%20Algorithms%20for%20Facility%20Location.pdf)
 
-### Dynamic programming
+Local search is another effective approach which is also easy to implement. The <u>algorithm</u> runs as follows:
+
+1. Choose an arbitrary set of facilities to open
+2. Repeat the following actions:
+  - If there exists an unopened facility, such that opening it would decrease the total cost, then open it
+  - If there exists an opened facility, such that closing it would decrease the total cost, then close it
+  - If there exists an opened facility $$i$$ and another unopened facility $$i'$$, such that swapping them (i.e., closing $$i$$ and opening $$i'$$) would decrease the total cost, then perform the swap
+  - If none of the above conditions are satisfied, terminate the procedure.
+
+### Other algorithms
+
+Furthermore, we tried dynamic programming, and tried different scaling parameters on connection cost versus opening cost, and did extensive experiments to validate that our methods outperform the baselines.
 
