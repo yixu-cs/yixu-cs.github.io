@@ -33,15 +33,29 @@ The proposed approaches leverage Model Predictive Control (MPC) and Reinforcemen
 The MPC algorithm is effective for video bitrate adaption on the Internet. For each user during each time step, we perform the following procedure to select satellite and bitrate for video streaming:
 
 1. **Predict throughput of current satellite:** predict the future throughput of the currently connected satellite $$c$$, using a prediction method such as the harmonic mean over historical throughput
-2. **Evaluate current satellite:** Use MPC algorithm to compute QoE and recommended bitrate for satellite $$c$$, based on historical bitrate, buffer size, and the predicted throughput. Record $$c$$ and its associated metrics as the current best choice
+2. **Evaluate current satellite:** Use MPC algorithm to compute the expected QoE and recommended bitrate for satellite $$c$$, based on historical bitrate, buffer size, and the predicted throughput. Record $$c$$ and its associated metrics as the current best choice
 3. **Explore visible satellites:**  
   For each visible satellite $$i$$ in the current time step:
   - Predict the future throughput of $$i$$
-  - Use MPC algorithm to compute QoE and bitrate of satellite $$i$$, considering handoff point
-  - If $$i$$'s QoE is better than the best QoE up till now, then replace the best satellite as $$i$$
-4. Return the best QoE, bitrate, correspondent sattelite and handoff point as algorithms' decision
+  - Use MPC algorithm to compute the expected QoE and recommended bitrate for satellite $$i$$, also considering the handoff point from the current satellite
+  - If $$i$$ yields a higher QoE than the current best, update the best satellite to $$i$$ (along with its corresponding bitrate and QoE)
+4. **Output optimal configuration:** Return the best QoE, corresponding bitrate, selected sattelite and the chosen handoff point as the decision for the current time step
 
 ### RL-based algorithm
+
+We apply Proximal Policy Optimization (PPO), a state-of-the-art actor/critic method, which trains two networks: a critic network to estiamte the value function and an actor network to optimize the policy based on the value function.
+
+The figure below shows our networks, where $$S$$ denotes the state space after downloading a chunk $$t$$, $$v$$ is the value function, $$a$$ is the action space, and $$\pi$$ represents the sate transition probability.
+
+<p align="center">
+  <img src="/images/paper-RL/PPO network.png" width="450"/>
+</p>
+
+* **State:** the state inputs to the actor and critic networks include the current buffer level, the number of chunks remaining in the video, the bitrate at which the last chunk was downloaded, a vector of $$m$$ available sizes for the next video chunk, the download time of the past $$k$$ video chunks (which represents the time interval of the throughput measurements), the network throughput measurements of 
+* **Action:**
+* **Reward:**
+* **Policy:**
+* **Policy update:**
 
 In particular, our RL method employs centralized training with distributed inference: the model is trained with access to global network and user states but infers decisions independently for each user in deployment. This design balances learning efficiency and practical scalability, allowing for explicit consideration of satellite and ground station interactions while supporting distributed, real-world inference. We extend our RL algorithm with support for multiple bitrate levels and dynamic resource allocation mechanisms to simulate real-world application diversity.
 
