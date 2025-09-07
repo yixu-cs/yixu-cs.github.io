@@ -18,7 +18,7 @@ On a more personal note, I enjoy [birdwatching](/misc/birdwatching/) and writing
 {% include_relative publications.html %}
 
 # Talks
-{% include_relative talks.html %}
+{% include_relative talks.md %}
 
 # Teaching
 {% include_relative teaching.html %}
