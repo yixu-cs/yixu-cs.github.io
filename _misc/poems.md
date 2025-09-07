@@ -27,7 +27,7 @@ For me, one day of life is fair and rare
 If only you would promise me for sure  
 That Spring returns each year and forever
 
-*Inspired by [Rajaton - "Butterfly" (A cappella)](https://www.youtube.com/watch?v=KR8rQnNXarY)*
+*Inspired by [Rajaton - "Butterfly" (A cappella)](https://youtu.be/KR8rQnNXarY?si=5fp5jjgeZO7DHheL)*
 
 古诗词
 ------
@@ -112,7 +112,7 @@ That Spring returns each year and forever
 只要你向我肯定地保证  
 春天还会无数次翩然飞回人间天上
 
-*Inspired by [Rajaton - "Butterfly" (A cappella)](https://www.youtube.com/watch?v=KR8rQnNXarY)*
+*Inspired by [Rajaton - "Butterfly" (A cappella)](https://youtu.be/KR8rQnNXarY?si=5fp5jjgeZO7DHheL)*
 
 
 **告别**  
