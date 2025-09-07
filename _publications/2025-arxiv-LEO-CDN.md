@@ -44,6 +44,10 @@ Algorithms
 This problem can be formalized as **Facility Location Problem**:
 Among all the LEO satellites, we choose and *open* several of them as facilities (CDN replicas). And the opened facilities have connection and handover cost when they are serving the users. Then, our goal is to **minimize the sum of open cost and connection cost**.
 
+Input: facilities and users         |  Facility location solution 
+:-------------------------:|:-------------------------:
+<img src='/images/paper-CDN/FacilityLocation1.jpg' width='400' />  |  <img src='/images/paper-CDN/FacilityLocation2.jpg' width='400' /> 
+
 ### Greedy facility location algorithms
 
 [Reference](https://arxiv.org/pdf/cs/0207028)
