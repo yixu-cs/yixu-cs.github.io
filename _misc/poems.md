@@ -8,8 +8,7 @@ author_profile: true
 English poems
 ------
 
-**One day being a butterfly**
-
+**One day being a butterfly**  
 Sept. 8th, 2024
 
 One day I woke up in a Spring  
@@ -35,8 +34,7 @@ That Spring returns each year and forever
 
   我对北大的印象是：兼容并包，文理并重，以及兼济天下的理想。 -->
 
-**临江仙·梦北大**
-
+**临江仙·梦北大**  
 2017年9月11日
 
 夜半清风来访也，更兼飘渺流云。  
@@ -49,8 +47,7 @@ That Spring returns each year and forever
 
   我尤其喜欢香樟树，因为它的枝条会垂得很低，离人很近，有种天人合一的和谐感。 -->
 
-**春   悦**
-
+**春   悦**  
 2017年3月23日
 
 枝下归客松上雪，素裹人间音尘绝。  
@@ -58,8 +55,7 @@ That Spring returns each year and forever
 重抹青草迷曲径，轻匀李花戏舞蝶。  
 无垠天宇时时绿，春回大地岁岁约。
 
-**香  樟**
-
+**香  樟**  
 2018年5月1日
 
 林苑森森植樟树，鸟儿双双做泥屋。  
@@ -69,8 +65,7 @@ That Spring returns each year and forever
 
 <!-- * 思乡 -->
 
-**采桑子**
-
+**采桑子**  
 2016年10月27日
 
 半壶粗茶泪一滴，地厚天宽。地厚天宽，阔别羁旅漠世间。
@@ -82,8 +77,7 @@ That Spring returns each year and forever
 
 <!-- 在科大有一处小草坪，上面种着几棵香樟树，旁边还有一个小池塘。我喜欢坐在树荫下享受大自然，放松心情。我为这个独特的地方起了名字，并自称“树精”。 -->
 
-**题芳仙居**
-
+**题芳仙居**  
 2021年1月22日
 
 此地实乃万象所共享，非余独有；然余常往来，私以为名之题之亦无伤大雅。思来想去，以为“芳仙居”甚好。
@@ -97,8 +91,7 @@ That Spring returns each year and forever
 现代诗
 ------
 
-**告别**
-
+**告别**  
 2025年6月12日
 
 傍晚云沉日斜，有落叶轻叩我窗  
@@ -115,6 +108,7 @@ That Spring returns each year and forever
 于是仿佛有一只手掌停落在我的肩膀  
 有一些告别，经年之后再有幸同路一程  
 在雨雾缭绕的竹林，在流霞满天的山岗  
+
 还有一些告别，尚不知何时重聚  
 但此时畅通原野的风吹过你我之间  
 我知道我们只是和风道游四方
@@ -127,8 +121,7 @@ That Spring returns each year and forever
 
 我想用这首诗表达一些强烈得不由自主的兴趣和一生不懈追求的境界。 -->
 
-**谁谓河广**
-
+**谁谓河广**  
 2024年10月31日
 
 在世界的海滨，我原本无知无觉地玩着游戏；
@@ -142,8 +135,7 @@ That Spring returns each year and forever
 却不曾给我一苇小舟，一块浮槎。
 
 无限的蔚蓝，深深地把我包围。
-在你的形象之海中，我是一个学习游泳的人——
-
+在你的形象之海中，我是一个学习游泳的人——  
 ——以双臂，以双腿。
 无所谓游的好坏，谁不游谁就会溺水。
 
