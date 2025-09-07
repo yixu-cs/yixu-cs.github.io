@@ -51,23 +51,44 @@ The figure below shows our networks, where $$S$$ denotes the state space after d
   <img src="/images/paper-RL/PPO network.png" width="450"/>
 </p>
 
-* **State:** the state inputs to the actor and critic networks include 
-  - the current buffer level
-  - the number of chunks remaining in the video
-  - the bitrate at which the last chunk was downloaded
-  - a vector of $$m$$ available sizes for the next video chunk
-  - the download time of the past $$k$$ video chunks (which represents the time interval of the throughput measurements)
-  - the network throughput measurements of two satellites for the past $$k$$ video chunks
-  - the visible time elapsed
-  - two additional inputes: the current satellite and runner-up satellite (they are crucial since we jointly decide on bitrate and handoff together)
-* **Action:** select a satellite and the video bitrate for the next video chunk at next time step
-* **Reward:** vdeo QoE metric, which is the ultimate metric we want to optimize
-* **Policy:** the policy specifies the probabilities of taking different actions at each state
+* **State:** The state fed into the actor and critic networks includes:
+  - Current buffer level
+  - Number of chunks remaining in the video
+  - Bitrate of the last downloaded chunk
+  - A vector of $$m$$ available sizes for the next video chunk
+  - Download time for the past $$k$$ chunks (time interval for throughput measurements)
+  - Throughput measurements from two satellites over the past $$k$$ chunks
+  - Visible time elapsed
+  - Current satellite and runner-up satellite (critical for joint decision of bitrate and handoff)
+
+* **Action:** Choose both the satellite and the video bitrate for the next chunk at the upcoming time step
+* **Reward:** The reward is defined as the video QoE metric, which we aim to optimize
+* **Policy:** The policy specifies the probability of taking each possible action in a given state
 * **Policy update/training process:**
-  - Collect user's state data
+  - Collect user state data
   - Calculate individual QoE
-  - Adjust the hyperparameters (such as learning rates and model weights)
-  - Re-calculate QoE (to ensure the optimization does not degrade other users' QoE)
-  - Make a decision based on the updated QoE scores
+  - Adjust the hyperparameters (e.g., learning rates and model weights)
+  - Re-calculate QoE to ensure the optimization does not degrade other users' QoE
+  - Make decisions based on the updated QoE scores
 
 In particular, our RL method employs centralized training with distributed inference: the model is trained with access to global network and user states but infers decisions independently for each user in deployment.
+
+Experiments
+------
+
+We evaluate our approach against popular satellite selection strategies and Adaptive Bitrate (ABR) algorithms. The baseline methods include:
+* Maximum visible time (MVT): Switch to the satellite with the longest visible time when the currently connected satellite is about to leave the client's horizon
+* Maximum received signal strength (MRSS): Switch to the satellite with the highest signal strength
+* Maximum bandwidth (MB): Switch to the satellite with the maximum available bandwidth
+
+The figure below shows QoE results on simulated, NOAA and Starlink datasets. The number of users refers to how many users are streaming video out of 20 users.
+
+| QoE for different datasets | 
+|:--:| 
+| <img src='/images/paper-RL/experiment-QoE-datesets.png' width='600' /> |
+
+The next figure represents a breakdown of QoE on the simulated dataset, showing quality reward, rebuffer penalty and smoothness penalty.
+
+| QoE breakdown results | 
+|:--:| 
+| <img src='/images/paper-RL/experiment-QoE-breakdown.png' width='600' /> |
