@@ -50,12 +50,12 @@ and query time for retrieving each $$k$$ is $$O(\log\log W)$$.
 Techniques
 ------
 
-1. **Reduction:** SLC cost estimation reduces to estimating the number of connected components (\#CCs) in thresholded subgraphs.
+1. **Reduction:** SLC cost estimation reduces to estimating the number of connected components (\#CCs) in thresholded subgraphs
 2. **Estimating connected components:**  
-   - Use sampling and BFS ([\[CRT05\]](https://www.cs.princeton.edu/~chazelle/pubs/mstapprox.pdf)).
-   - Our algorithm improves on prior bounds.
+   - Use sampling and BFS ([\[CRT05\]](https://www.cs.princeton.edu/~chazelle/pubs/mstapprox.pdf))
+   - Our algorithm improves on prior bounds
 3. **Binary search for acceleration:**  
-   - Since each \#CCs lies in the range $$[1,n]$$, we partition this range into intervals.
+   - Since each \#CCs lies in the range $$[1,n]$$, we partition this range into intervals
 
     <p align="center">
       <img src="/images/paper-SLC/map_intervals1.png" width="400" />
@@ -67,7 +67,7 @@ Techniques
       <img src="/images/paper-SLC/map_intervals2.png" width="400" />
     </p>
 
-   - We choose endpoints wisely, such that the gap of two endpoints are close to the error bound of CC values.
+   - We choose endpoints wisely, such that the gap of two endpoints are close to the error bound of CC values
 
 Extension: similarity case
 ------
