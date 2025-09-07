@@ -12,33 +12,20 @@ English poems
 
 Sept. 8th, 2024
 
-One day I woke up in a Spring
+One day I woke up in a Spring  
+With wind I travelled like a king  
+We danced and danced with newborn wings  
+And countless songs we planned to sing  
+Even the river was playing its strings  
+Living on earth is the greates thing  
 
-With wind I travelled like a king
-
-We danced and danced with newborn wings
-
-And countless songs we planned to sing
-
-Even the river was playing its strings
-
-Living on earth is the greates thing
-
-
-We dressed in colour and walked by the river
-
-Gracefully, we embraced the fresh air
-
-Thousands of birds fluttered
-
-Toward the tomorrow they will enter
-
-The Spring is bright, pure and tender
-
-For me, one day of life is fair and rare
-
-If only you would promise me for sure
-
+We dressed in colour and walked by the river  
+Gracefully, we embraced the fresh air  
+Thousands of birds fluttered  
+Toward the tomorrow they will enter  
+The Spring is bright, pure and tender  
+For me, one day of life is fair and rare  
+If only you would promise me for sure  
 That Spring returns each year and forever
 
 
@@ -52,12 +39,10 @@ That Spring returns each year and forever
 
 2017年9月11日
 
-夜半清风来访也，更兼飘渺流云。
+夜半清风来访也，更兼飘渺流云。  
+未名湖水半氤氲。潇潇青翠雨，朗润千人心。  
 
-未名湖水半氤氲。潇潇青翠雨，朗润千人心。
-
-天地无言存大美，一揽文墨欢欣。
-
+天地无言存大美，一揽文墨欢欣。  
 好风吹散眼前云。醒时山月见，山月恰如君。
 
 <!-- * 大自然
@@ -68,24 +53,18 @@ That Spring returns each year and forever
 
 2017年3月23日
 
-枝下归客松上雪，素裹人间音尘绝。
-
-时过三月山桃雨，境迁四时柳絮歇。
-
-重抹青草迷曲径，轻匀李花戏舞蝶。
-
+枝下归客松上雪，素裹人间音尘绝。  
+时过三月山桃雨，境迁四时柳絮歇。  
+重抹青草迷曲径，轻匀李花戏舞蝶。  
 无垠天宇时时绿，春回大地岁岁约。
 
 **香  樟**
 
 2018年5月1日
 
-林苑森森植樟树，鸟儿双双做泥屋。
-
-露润春叶薄阳透，风拾嫩枝皎月出。
-
-晴时绕道专访汝，雨来折腰更近吾。
-
+林苑森森植樟树，鸟儿双双做泥屋。  
+露润春叶薄阳透，风拾嫩枝皎月出。  
+晴时绕道专访汝，雨来折腰更近吾。  
 仰面拟将心事叙，垂首遐想侬知无。
 
 <!-- * 思乡 -->
@@ -122,36 +101,22 @@ That Spring returns each year and forever
 
 2025年6月12日
 
-傍晚云沉日斜，有落叶轻叩我窗
-
-我打开一扇窗扉，看着它们飘忽远扬
-
-像是早知道最后一个音符也会归于岑寂
-
-还是要载酒载月，引吭高唱
-
-像是早知道划过天空的飞翔终会在巢中敛翼
-
-还是要振奋展翅，翻山越洋
-
+傍晚云沉日斜，有落叶轻叩我窗  
+我打开一扇窗扉，看着它们飘忽远扬  
+像是早知道最后一个音符也会归于岑寂  
+还是要载酒载月，引吭高唱  
+像是早知道划过天空的飞翔终会在巢中敛翼  
+还是要振奋展翅，翻山越洋  
 像是早知别期，还是要同行同往
 
-有一些告别，只是将我亲爱的人在另一个角落安放
-
-让我在幽暗独行时，望见一些地名被点亮
-
-有一些告别，让我在撞进花香的季节格外想念一个人
-
-于是仿佛有一只手掌停落在我的肩膀
-
-有一些告别，经年之后再有幸同路一程
-
-在雨雾缭绕的竹林，在流霞满天的山岗
-
-还有一些告别，尚不知何时重聚
-
-但此时畅通原野的风吹过你我之间
-
+有一些告别，只是将我亲爱的人在另一个角落安放  
+让我在幽暗独行时，望见一些地名被点亮  
+有一些告别，让我在撞进花香的季节格外想念一个人  
+于是仿佛有一只手掌停落在我的肩膀  
+有一些告别，经年之后再有幸同路一程  
+在雨雾缭绕的竹林，在流霞满天的山岗  
+还有一些告别，尚不知何时重聚  
+但此时畅通原野的风吹过你我之间  
 我知道我们只是和风道游四方
 
 
