@@ -27,6 +27,7 @@ For me, one day of life is fair and rare
 If only you would promise me for sure  
 That Spring returns each year and forever
 
+*Inspired by [Rajaton - "Butterfly" (A cappella)](https://www.youtube.com/watch?v=KR8rQnNXarY)*
 
 古诗词
 ------
@@ -90,6 +91,29 @@ That Spring returns each year and forever
 
 现代诗
 ------
+
+**一日蝴蝶**  
+2024年9月8日
+
+某日我路过了春天  
+乘风拂过许多柔嫩的草尖  
+我们偎着花瓣起舞  
+沾着露珠濯洗双足  
+流水竖琴 清风衣裳  
+扑面的空气真是又甜又凉  
+我们的心跳是最响的鼓点  
+一起来加入世界的合唱
+
+千万棵柳树拉开帘帐  
+千万只水鸟簌簌起飞 翻搅着流光  
+春天就是暖风 是花心满溢的蜜  
+是新鲜 是斑斓 是明亮  
+作为蝴蝶的我可以只活一日  
+只要你向我肯定地保证  
+春天还会无数次翩然飞回人间天上
+
+*Inspired by [Rajaton - "Butterfly" (A cappella)](https://www.youtube.com/watch?v=KR8rQnNXarY)*
+
 
 **告别**  
 2025年6月12日
