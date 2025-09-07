@@ -51,15 +51,23 @@ The figure below shows our networks, where $$S$$ denotes the state space after d
   <img src="/images/paper-RL/PPO network.png" width="450"/>
 </p>
 
-* **State:** the state inputs to the actor and critic networks include the current buffer level, the number of chunks remaining in the video, the bitrate at which the last chunk was downloaded, a vector of $$m$$ available sizes for the next video chunk, the download time of the past $$k$$ video chunks (which represents the time interval of the throughput measurements), the network throughput measurements of 
-* **Action:**
-* **Reward:**
-* **Policy:**
-* **Policy update:**
+* **State:** the state inputs to the actor and critic networks include 
+  - the current buffer level
+  - the number of chunks remaining in the video
+  - the bitrate at which the last chunk was downloaded
+  - a vector of $$m$$ available sizes for the next video chunk
+  - the download time of the past $$k$$ video chunks (which represents the time interval of the throughput measurements)
+  - the network throughput measurements of two satellites for the past $$k$$ video chunks
+  - the visible time elapsed
+  - two additional inputes: the current satellite and runner-up satellite (they are crucial since we jointly decide on bitrate and handoff together)
+* **Action:** select a satellite and the video bitrate for the next video chunk at next time step
+* **Reward:** vdeo QoE metric, which is the ultimate metric we want to optimize
+* **Policy:** the policy specifies the probabilities of taking different actions at each state
+* **Policy update/training process:**
+  - Collect user's state data
+  - Calculate individual QoE
+  - Adjust the hyperparameters (such as learning rates and model weights)
+  - Re-calculate QoE (to ensure the optimization does not degrade other users' QoE)
+  - Make a decision based on the updated QoE scores
 
-In particular, our RL method employs centralized training with distributed inference: the model is trained with access to global network and user states but infers decisions independently for each user in deployment. This design balances learning efficiency and practical scalability, allowing for explicit consideration of satellite and ground station interactions while supporting distributed, real-world inference. We extend our RL algorithm with support for multiple bitrate levels and dynamic resource allocation mechanisms to simulate real-world application diversity.
-
-Experiments
-------
- 
-We conduct comprehensive evaluations of the proposed algorithms using trace-driven simulations and a real-world testbed. Video streaming scenarios are tested with various bitrate levels and realistic user mobility patterns, split into chunks transmitted via LEO networks. Both single-user and multi-user experiments are performed, including dynamic resource allocation among heterogeneous applications. Our results highlight that joint optimization of satellite selection and bitrate adaptation significantly improves user QoE—up to 68% compared to baseline separate optimization strategies. We further analyze the impact of RL design choices, resource sharing strategies, and geographic locations, demonstrating the effectiveness and practicality of our methods for improving video streaming and general user experience in LEO satellite environments.
+In particular, our RL method employs centralized training with distributed inference: the model is trained with access to global network and user states but infers decisions independently for each user in deployment.
