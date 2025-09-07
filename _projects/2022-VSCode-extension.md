@@ -35,7 +35,7 @@ Our extension allows users to:
 
 Create pull request         |  Comment management
 :-------------------------:|:-------------------------:
-<img src='/images/projects/extension-createPR.png' width='300' />  |  <img src='/images/projects/extension-comment-management.png' width='320' />
+<img src='/images/projects/extension-createPR.png' width='400' />  |  <img src='/images/projects/extension-comment-management.png' width='430' />
 
 Create PR
 ------
