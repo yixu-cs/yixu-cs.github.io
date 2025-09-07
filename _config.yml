@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Yi (Calla) Xu's Homepage"
+title                    : "Yi Xu's Homepage"
 title_separator          : "-"
-name                     : &name "Yi (Calla) Xu"
+name                     : &name "Yi Xu (Calla, 徐怡)"
 description              : &description "Focusing on approximation algorithms, graph algorithms"
 url                      : https://yixu-cs.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -23,7 +23,7 @@ repository               : "yixu-cs/yixu-cs.github.io"
 author:
   # Biographic information
   avatar           : "Yi_Xu.jpg"
-  name             : "Yi (Calla) Xu"
+  name             : "Yi Xu (\"Calla\", 徐怡)"
   pronouns         : "she/her"
   bio              : "Focusing on approximation algorithms, graph algorithms"
   location         : "Hefei, Anhui, China"
