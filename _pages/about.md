@@ -17,14 +17,14 @@ On a more personal note, I enjoy [birdwatching](/misc/birdwatching/) and writing
 # Publications
 {% include_relative publications.html %}
 
+# Projects
+{% include_relative projects.html %}
+
 # Talks
 {% include_relative talks.md %}
 
-# Teaching
-{% include_relative teaching.html %}
-
-# Projects
-{% include_relative projects.html %}
+# Teaching Assistant
+{% include_relative teaching.md %}
 
 # Academic Experience
 {% include_relative experience.md %}
