@@ -15,6 +15,6 @@ author_profile: true
   {% include archive-single-talk.html %}
 {% endfor %} -->
 
-**Sublinear Algorithms for Estimating Single-Linkage Clustering Costs**  
-* [Women in Theory 2025](https://womenintheory.wordpress.com/) Rump Session at UC-Berkeley, June 2025. [Slides](/files/WIT-SLC.pdf).
-* Student Theory Day 2025 at USTC, March 2025. [Slides](/files/Theory%20Student%20Day-SLC.pdf).
+* **Sublinear Algorithms for Estimating Single-Linkage Clustering Costs**  
+  [Women in Theory 2025](https://womenintheory.wordpress.com/) Rump Session at UC-Berkeley, June 2025. [Slides](/files/WIT-SLC.pdf).  
+  Student Theory Day 2025 at USTC, March 2025. [Slides](/files/Theory%20Student%20Day-SLC.pdf).
