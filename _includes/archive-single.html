@@ -42,9 +42,9 @@
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'projects' %}
           {% if post.role and post.start %}
-            <p>{{post.role}} {{ post.start | date: "%B, %Y" }} ~ {{ post.end | date: "%B, %Y" }}</p>
+            <p>{{post.role}} {{ post.start | date: "%b %Y" }} ~ {{ post.end | date: "%b %Y" }}</p>
           {% elsif post.start %}
-            <p>{{ post.start | date: "%B, %Y" }} ~ {{ post.end | date: "%B, %Y" }}</p>
+            <p>{{ post.start | date: "%b %Y" }} ~ {{ post.end | date: "%b %Y" }}</p>
           {% endif %}
         {% elsif post.collection == 'publications' %}
           {% if post.category == 'submitted' %}
@@ -53,7 +53,7 @@
             <p>Posted in <i>{{ post.venue }}</i> </p>
           {% endif %}
         {% elsif post.date %}
-         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%b %d, %Y" }}</time></p>
         {% endif %}
 
     <!-- {% if post.excerpt and site.read_more != 'enabled' %}

@@ -10,7 +10,7 @@ I am a second-year Master’s student at the [University of Science and Technolo
 
 My research interests include parameter approximation on graphs, spectral graph theory, sublinear algorithms, streaming algorithms, and learning theory.
 
-You can find my CV [here](/files/CV-USTC-Yi%20Xu.pdf) (last updated: Aug. 2025).
+You can find my CV [here](/files/CV-USTC-Yi%20Xu.pdf) (last updated: Aug 2025).
 
 On a more personal note, I enjoy [birdwatching](/misc/birdwatching/) and writing [poems](/misc/poems/).
 

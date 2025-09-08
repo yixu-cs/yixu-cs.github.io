@@ -39,9 +39,9 @@
   {% endif %}
   
   {% if post.duration and post.date %}
-    <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{post.duration}}, {{ post.date | date: '%B %d, %Y' }}</p>
+    <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{post.duration}}, {{ post.date | date: '%b %d, %Y' }}</p>
   {% elsif post.date %}
-    <p class="page__meta"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>
+    <p class="page__meta"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: '%b %d, %Y' }}</p>
   {% endif %}
   {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{ post.venue }},  {{post.location}}</p>{% endif %}
   {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
