@@ -47,10 +47,8 @@
             <p>{{ post.start | date: "%b %Y" }} ~ {{ post.end | date: "%b %Y" }}</p>
           {% endif %}
         {% elsif post.collection == 'publications' %}
-          {% if post.category == 'submitted' %}
+          {% if post.category == 'submitted' and post.venue %}
             <p>Submitted to <i>{{ post.venue }}</i>, under peer review </p>
-          {% else %}
-            <p>Posted in <i>{{ post.venue }}</i> </p>
           {% endif %}
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%b %d, %Y" }}</time></p>
