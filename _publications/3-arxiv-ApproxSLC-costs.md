@@ -2,9 +2,9 @@
 title: "Sublinear Algorithms for Estimating Single-Linkage Clustering Costs"
 collection: publications
 category: manuscripts
-permalink: /publication/2025-SODA-SLC-costs
+permalink: /publication/3-arxiv-ApproxSLC-costs
 excerpt: 'We proposed new cost functions about SLC, which reflects properties of datasets, and estimated our costs in sublinear time. We studied this problem in both distance and similarity measurements, and conducted extensive experiments to validate our results. We also proved the lower bounds, and our algorithms nearly match them.'
-date: 2025-07-14
+date: 2025-01-26
 venue:
 slidesurl: '/files/WIT-SLC.pdf'
 paperurl: 

@@ -2,10 +2,10 @@
 title: "Joint Optimization of Handoff and Video Rate in LEO Satellite Networks"
 collection: publications
 category: manuscripts
-permalink: /publication/2025-arxiv-LEO-RL
+permalink: /publication/1-arxiv-LEO-RL
 excerpt: 'We propose and evaluate new algorithms for video-aware mobility management in satellite networks, jointly optimizing satellite handoff and video bitrate to improve streaming experience for both single and multiple users.'
-date: 2025-04-06
-venue: 'Arxiv'
+date: 2023-04-06
+venue:
 slidesurl: 
 paperurl: 'https://arxiv.org/abs/2504.04586'
 authors: Kyoungjun Park, Zhiyuan He, Cheng Luo, <b>Yi Xu</b>, Lili Qiu, Changhan Ge, Muhammad Muaz, Yuqing Yang

@@ -2,9 +2,9 @@
 title: "Replica Server Placement in a Satellite Network"
 collection: publications
 category: manuscripts
-permalink: /publication/2025-arxiv-LEO-CDN
+permalink: /publication/2-arxiv-LEO-CDN
 excerpt: 'Satellites can be applied as content replica servers to improve client experience in the remote locations. We optimized the placement of servers in satellite networks to reduce transmission and storage costs while considering satellite movement.'
-date: 2025-08-01
+date: 2023-07-01
 venue:
 slidesurl: '/files/LEO%20applications%20-%20Yi.pptx'
 paperurl:  '/files/preprint-SatCDN.pdf'
