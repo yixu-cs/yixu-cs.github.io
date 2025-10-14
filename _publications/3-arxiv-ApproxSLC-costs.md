@@ -7,7 +7,7 @@ excerpt: 'We proposed new cost functions about SLC, which reflects properties of
 date: 2025-01-26
 venue:
 slidesurl: '/files/WIT-SLC.pdf'
-paperurl: 
+paperurl: https://arxiv.org/abs/2510.11547
 bibtexurl: 
 authors: Pan Peng, Christian Sohler, <b>Yi Xu</b> (alphabetical order)
 ---
