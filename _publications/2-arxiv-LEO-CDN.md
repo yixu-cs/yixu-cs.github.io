@@ -7,7 +7,7 @@ excerpt: 'Satellites can be applied as content replica servers to improve client
 date: 2023-07-01
 venue:
 slidesurl: '/files/LEO%20applications%20-%20Yi.pptx'
-paperurl:  '/files/preprint-SatCDN.pdf'
+paperurl:  'https://arxiv.org/abs/2510.13689'
 authors: Zhiyuan He, <b>Yi Xu</b>, Cheng Luo, Lili Qiu, Yuqing Yang
 ---
 
