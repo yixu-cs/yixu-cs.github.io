@@ -15,9 +15,11 @@ You can find my CV [here](/files/CV-USTC-Yi%20Xu.pdf) (last updated: Oct 2025).
 On a more personal note, I enjoy [birdwatching](/misc/birdwatching/) and writing [poems](/misc/poems/).
 
 # Publications
+💡Tip: Click titles to view the 1 min overview.
 {% include_relative publications.html %}
 
 # Projects
+💡Tip: Click titles to view the 1 min overview.
 {% include_relative projects.html %}
 
 # Talks

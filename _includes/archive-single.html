@@ -42,9 +42,9 @@
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'projects' %}
           {% if post.role and post.start %}
-            <p>{{post.role}} {{ post.start | date: "%b %Y" }} ~ {{ post.end | date: "%b %Y" }}</p>
+            <p><a href="{{ post.permalink }}">Overview (1 min)</a> | {{post.role}} {{ post.start | date: "%b %Y" }} ~ {{ post.end | date: "%b %Y" }}</p>
           {% elsif post.start %}
-            <p>{{ post.start | date: "%b %Y" }} ~ {{ post.end | date: "%b %Y" }}</p>
+            <p><a href="{{ post.permalink }}">Overview (1 min)</a> | {{ post.start | date: "%b %Y" }} ~ {{ post.end | date: "%b %Y" }}</p>
           {% endif %}
         {% elsif post.collection == 'publications' %}
           {% if post.category == 'submitted' and post.venue %}
@@ -55,31 +55,31 @@
         {% endif %}
 
     {% if post.authors and post.paperurl and post.slidesurl and post.bibtexurl %}
-      <p><a href="{{ post.permalink }}">Overview</a> | <a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a><br />Authors: {{ post.authors }}</p>
+      <p><a href="{{ post.permalink }}">Overview (1 min)</a> | <a href="{{ post.paperurl }}">Paper</a> | <a href="{{ post.slidesurl }}">Slides</a> | <a href="{{ post.bibtexurl }}">Bibtex</a><br />Authors: {{ post.authors }}</p>
     {% elsif post.authors and post.paperurl and post.slidesurl %}
-      <p><a href="{{ post.permalink }}">Overview</a> | <a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a><br />Authors: {{ post.authors }}</p>
+      <p><a href="{{ post.permalink }}">Overview (1 min)</a> | <a href="{{ post.paperurl }}">Paper</a> | <a href="{{ post.slidesurl }}">Slides</a><br />Authors: {{ post.authors }}</p>
     {% elsif post.authors and post.paperurl and post.bibtexurl %}
-      <p><a href="{{ post.permalink }}">Overview</a> | <a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a><br />Authors: {{ post.authors }}</p>
+      <p><a href="{{ post.permalink }}">Overview (1 min)</a> | <a href="{{ post.paperurl }}">Paper</a> | <a href="{{ post.bibtexurl }}">Bibtex</a><br />Authors: {{ post.authors }}</p>
     {% elsif post.authors and post.paperurl %}
-      <p><a href="{{ post.permalink }}">Overview</a> | <a href="{{ post.paperurl }}">Download Paper</a><br />Authors: {{ post.authors }}</p>
+      <p><a href="{{ post.permalink }}">Overview (1 min)</a> | <a href="{{ post.paperurl }}">Paper</a><br />Authors: {{ post.authors }}</p>
     {% elsif post.authors and post.slidesurl and post.bibtexurl %}
-      <p><a href="{{ post.permalink }}">Overview</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl}}">Download Bibtex</a><br />Authors: {{ post.authors }}</p>
+      <p><a href="{{ post.permalink }}">Overview (1 min)</a> | <a href="{{ post.slidesurl }}">Slides</a> | <a href="{{ post.bibtexurl}}">Bibtex</a><br />Authors: {{ post.authors }}</p>
     {% elsif post.authors and post.slidesurl %}
-      <p><a href="{{ post.permalink }}">Overview</a> | <a href="{{ post.slidesurl }}">Download Slides</a><br />Authors: {{ post.authors }}</p>
+      <p><a href="{{ post.permalink }}">Overview (1 min)</a> | <a href="{{ post.slidesurl }}">Slides</a><br />Authors: {{ post.authors }}</p>
     {% elsif post.authors and post.bibtexurl %}
-      <p><a href="{{ post.permalink }}">Overview</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a><br />Authors: {{ post.authors }}</p>
+      <p><a href="{{ post.permalink }}">Overview (1 min)</a> | <a href="{{ post.bibtexurl }}">Bibtex</a><br />Authors: {{ post.authors }}</p>
     {% elsif post.authors %}
       <p>Authors: {{ post.authors }}</p>
     {% elsif post.paperurl and post.bibtexurl %}
-      <p><a href="{{ post.permalink }}">Overview</a> | <a href=" {{ post.paperurl }} ">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+      <p><a href="{{ post.permalink }}">Overview (1 min)</a> | <a href=" {{ post.paperurl }} ">Paper</a> | <a href="{{ post.bibtexurl }}">Bibtex</a></p>
     {% elsif post.paperurl %}
-      <p><a href="{{ post.permalink }}">Overview</a> | <a href=" {{ post.paperurl }} ">Download Paper</a></p>
+      <p><a href="{{ post.permalink }}">Overview (1 min)</a> | <a href=" {{ post.paperurl }} ">Paper</a></p>
     {% elsif post.slidesurl and post.bibtexurl %}
-      <p><a href="{{ post.permalink }}">Overview</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+      <p><a href="{{ post.permalink }}">Overview (1 min)</a> | <a href="{{ post.slidesurl }}">Paper</a> | <a href="{{ post.bibtexurl }}">Bibtex</a></p>
     {% elsif post.slidesurl %}
-      <p><a href="{{ post.permalink }}">Overview</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
+      <p><a href="{{ post.permalink }}">Overview (1 min)</a> | <a href="{{ post.slidesurl }}">Slides</a></p>
     {% elsif post.bibtexurl %}
-      <p><a href="{{ post.permalink }}">Overview</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+      <p><a href="{{ post.permalink }}">Overview (1 min)</a> | <a href="{{ post.bibtexurl }}">Bibtex</a></p>
     {% endif %}
 
     <!-- {% if post.excerpt and site.read_more != 'enabled' %}
