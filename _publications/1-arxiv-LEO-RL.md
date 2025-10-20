@@ -8,10 +8,10 @@ date: 2023-04-06
 venue:
 slidesurl: 
 paperurl: 'https://arxiv.org/abs/2504.04586'
-authors: Kyoungjun Park, Zhiyuan He, Cheng Luo, <b>Yi Xu</b>, Lili Qiu, Changhan Ge, Muhammad Muaz, Yuqing Yang
+authors: Kyoungjun Park, Zhiyuan He, Cheng Luo, Yi Xu<sup>*</sup>, Lili Qiu, Changhan Ge, Muhammad Muaz, Yuqing Yang
 ---
 
-Authors: Kyoungjun Park, Zhiyuan He, Cheng Luo, <b>Yi Xu</b>, Lili Qiu, Changhan Ge, Muhammad Muaz, Yuqing Yang
+Authors: Kyoungjun Park, Zhiyuan He, Cheng Luo, Yi Xu<sup>*</sup>, Lili Qiu, Changhan Ge, Muhammad Muaz, Yuqing Yang
 
 
 Motivation and challenges

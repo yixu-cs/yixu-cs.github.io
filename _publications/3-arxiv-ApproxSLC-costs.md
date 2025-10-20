@@ -9,10 +9,10 @@ venue:
 slidesurl: '/files/WIT-SLC.pdf'
 paperurl: https://arxiv.org/abs/2510.11547
 bibtexurl: 
-authors: Pan Peng, Christian Sohler, <b>Yi Xu</b> (alphabetical order)
+authors: Pan Peng, Christian Sohler, Yi Xu<sup>*</sup> (alphabetical order)
 ---
 
-Authors: Pan Peng, Christian Sohler, <b>Yi Xu</b> (alphabetical order)
+Authors: Pan Peng, Christian Sohler, Yi Xu<sup>*</sup> (alphabetical order)
 
 Motivation
 ------
