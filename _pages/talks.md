@@ -18,3 +18,5 @@ author_profile: true
 * **Sublinear Algorithms for Estimating Single-Linkage Clustering Costs**  
   [Women in Theory 2025](https://womenintheory.wordpress.com/) Rump Session at UC-Berkeley, Jun 2025. [Slides](/files/WIT-SLC.pdf).  
   Student Theory Day 2025 at USTC, Mar 2025. [Slides](/files/Theory%20Student%20Day-SLC.pdf).
+* **Experiences from an Award-Winning Team in the ASC Supercomputing Competition**
+  ASC24 Supercomputing Competition Startup at Beijing, Jan 2024. [Slides](/files/ASC24-openning-presentation-USTC-SwanGeese.pptx).
