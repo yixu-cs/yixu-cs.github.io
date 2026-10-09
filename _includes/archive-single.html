@@ -47,7 +47,9 @@
             <p><a href="{{ post.permalink }}">Overview (1 min)</a> | {{ post.start | date: "%b %Y" }} ~ {{ post.end | date: "%b %Y" }}</p>
           {% endif %}
         {% elsif post.collection == 'publications' %}
-          {% if post.category == 'submitted' and post.venue %}
+          {% if post.category == 'conference' and post.venue %}
+            <p><strong>{{ post.venue }}</strong></p>
+          {% elsif post.category == 'submitted' and post.venue %}
             <p>Submitted to <i>{{ post.venue }}</i>, under peer review </p>
           {% endif %}
         {% elsif post.category == 'submitted' and post.date %}

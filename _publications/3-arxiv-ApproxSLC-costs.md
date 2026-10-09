@@ -1,18 +1,18 @@
 ---
 title: "Sublinear Algorithms for Estimating Single-Linkage Clustering Costs"
 collection: publications
-category: manuscripts
+category: conference
 permalink: /publication/3-arxiv-ApproxSLC-costs
 excerpt: 'We proposed new cost functions about SLC, which reflects properties of datasets, and estimated our costs in sublinear time. We studied this problem in both distance and similarity measurements, and conducted extensive experiments to validate our results. We also proved the lower bounds, and our algorithms nearly match them.'
 date: 2025-01-26
-venue:
+venue: "ESA 2026"
 slidesurl: '/files/WIT-SLC.pdf'
 paperurl: https://arxiv.org/abs/2510.11547
 bibtexurl: 
-authors: Pan Peng, Christian Sohler, Yi Xu<sup>*</sup> (alphabetical order)
+authors: Pan Peng, Christian Sohler, Yi Xu (alphabetical order)
 ---
 
-Authors: Pan Peng, Christian Sohler, Yi Xu<sup>*</sup> (alphabetical order)
+Authors: Pan Peng, Christian Sohler, Yi Xu (alphabetical order)
 
 Motivation
 ------
