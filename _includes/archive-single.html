@@ -33,6 +33,14 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
+
+    {% if post.codeurl or post.dataseturl or post.posterurl %}
+      <p class="publication-resources">
+        {% if post.codeurl %}<a href="{{ post.codeurl }}">Code</a>{% endif %}
+        {% if post.dataseturl %}{% if post.codeurl %} | {% endif %}<a href="{{ post.dataseturl }}">Dataset</a>{% endif %}
+        {% if post.posterurl %}{% if post.codeurl or post.dataseturl %} | {% endif %}<a href="{{ post.posterurl }}">Poster</a>{% endif %}
+      </p>
+    {% endif %}
     
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>

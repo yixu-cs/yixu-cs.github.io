@@ -5,6 +5,9 @@ category: conference
 permalink: /publication/vehiclemembench
 venue: "COLM 2026"
 paperurl: 'https://arxiv.org/abs/2603.23840'
+codeurl: 'https://github.com/MINE-USTC/VehicleMemBench'
+dataseturl: 'https://huggingface.co/datasets/callalilya/VehicleMemBench'
+posterurl: '/files/VehicleMemBench-poster.pdf'
 excerpt: 'An executable benchmark that evaluates whether agents can use evolving, user-specific memories to perform correct tool actions. Task success is assessed through the final state of a vehicle simulator.'
 authors: 'Yuhao Chen, Yi Xu, Xinyun Ding, Xiang Fang, Shuochen Liu, Luxi Lin, Qingyu Zhang, Ya Li, Quan Liu, Tong Xu'
 ---
@@ -13,7 +16,7 @@ authors: 'Yuhao Chen, Yi Xu, Xinyun Ding, Xiang Fang, Shuochen Liu, Luxi Lin, Qi
 
 Yuhao Chen, Yi Xu, Xinyun Ding, Xiang Fang, Shuochen Liu, Luxi Lin, Qingyu Zhang, Ya Li, Quan Liu, Tong Xu.
 
-[Code](https://github.com/MINE-USTC/VehicleMemBench) · [Dataset](https://huggingface.co/datasets/callalilya/VehicleMemBench)
+[Code](https://github.com/MINE-USTC/VehicleMemBench) · [Dataset](https://huggingface.co/datasets/callalilya/VehicleMemBench) · [Poster](/files/VehicleMemBench-poster.pdf)
 
 ## Overview
 
