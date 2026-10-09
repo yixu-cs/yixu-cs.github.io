@@ -10,7 +10,7 @@ I am a PhD student in Computer Science at the [University of Southern California
 
 My research spans **algorithms and theoretical computer science**, including sublinear algorithms, and **AI agent evaluation**, with a focus on long-term memory and tool use. I enjoy both proof-based research and hands-on experimentation. My previous work also includes satellite network optimization and high-performance computing.
 
-You can find my [CV (PDF)](/files/CV-Yi-Xu-USC.pdf) or browse my [CV online](/cv/).
+You can find my CV [here](/files/CV-Yi-Xu-USC.pdf).
 
 On a more personal note, I enjoy [birdwatching](/misc/birdwatching/) and writing [poems](/misc/poems/).
 
