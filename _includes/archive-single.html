@@ -34,13 +34,6 @@
       {% endif %}
     </h2>
 
-    {% if post.codeurl or post.dataseturl or post.posterurl %}
-      <p class="publication-resources">
-        {% if post.codeurl %}<a href="{{ post.codeurl }}">Code</a>{% endif %}
-        {% if post.dataseturl %}{% if post.codeurl %} | {% endif %}<a href="{{ post.dataseturl }}">Dataset</a>{% endif %}
-        {% if post.posterurl %}{% if post.codeurl or post.dataseturl %} | {% endif %}<a href="{{ post.posterurl }}">Poster</a>{% endif %}
-      </p>
-    {% endif %}
     
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
@@ -64,7 +57,9 @@
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%b %d, %Y" }}</time></p>
         {% endif %}
 
-    {% if post.authors and post.paperurl and post.slidesurl and post.bibtexurl %}
+    {% if post.codeurl or post.dataseturl or post.posterurl %}
+      <p class="publication-resources"><a href="{{ post.permalink }}">Overview</a>{% if post.paperurl %} | <a href="{{ post.paperurl }}">Paper</a>{% endif %}{% if post.posterurl %} | <a href="{{ post.posterurl }}">Poster</a>{% endif %}{% if post.codeurl %} | <a href="{{ post.codeurl }}">Code</a>{% endif %}{% if post.dataseturl %} | <a href="{{ post.dataseturl }}">Dataset</a>{% endif %}{% if post.slidesurl %} | <a href="{{ post.slidesurl }}">Slides</a>{% endif %}{% if post.bibtexurl %} | <a href="{{ post.bibtexurl }}">Bibtex</a>{% endif %}{% if post.authors %}<br />Authors: {{ post.authors }}{% endif %}</p>
+    {% elsif post.authors and post.paperurl and post.slidesurl and post.bibtexurl %}
       <p><a href="{{ post.permalink }}">Overview (1 min)</a> | <a href="{{ post.paperurl }}">Paper</a> | <a href="{{ post.slidesurl }}">Slides</a> | <a href="{{ post.bibtexurl }}">Bibtex</a><br />Authors: {{ post.authors }}</p>
     {% elsif post.authors and post.paperurl and post.slidesurl %}
       <p><a href="{{ post.permalink }}">Overview (1 min)</a> | <a href="{{ post.paperurl }}">Paper</a> | <a href="{{ post.slidesurl }}">Slides</a><br />Authors: {{ post.authors }}</p>
