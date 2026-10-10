@@ -9,6 +9,6 @@ authors: 'Xinyu Mao, Yi Xu, Guangxu Yang (alphabetical order)'
 
 Xinyu Mao, Yi Xu, Guangxu Yang (alphabetical order).
 
-**Manuscript; submitted to ITCS 2027.**
+Submitted to ITCS 2027.
 
 We study exact direct-sum theorems for depth-3 AC⁰ and depth-4 NC⁰ circuits. My contribution includes co-developing the proofs.
