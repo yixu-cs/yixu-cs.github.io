@@ -12,11 +12,7 @@ excerpt: 'An executable benchmark that evaluates whether agents can use evolving
 authors: 'Yuhao Chen, Yi Xu, Xinyun Ding, Xiang Fang, Shuochen Liu, Luxi Lin, Qingyu Zhang, Ya Li, Quan Liu, Tong Xu'
 ---
 
-**COLM 2026**
-
-Yuhao Chen, Yi Xu, Xinyun Ding, Xiang Fang, Shuochen Liu, Luxi Lin, Qingyu Zhang, Ya Li, Quan Liu, Tong Xu.
-
-[Code](https://github.com/MINE-USTC/VehicleMemBench) · [Dataset](https://huggingface.co/datasets/callalilya/VehicleMemBench) · [Poster](/files/VehicleMemBench-poster.pdf)
+Authors: Yuhao Chen, Yi Xu, Xinyun Ding, Xiang Fang, Shuochen Liu, Luxi Lin, Qingyu Zhang, Ya Li, Quan Liu, Tong Xu.
 
 ## Overview
 
